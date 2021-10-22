@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kurdiamina3/OOP-Profile-Generator.git"
+  },
+  "author": "kurdiamina3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kurdiamina3/OOP-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/Kurdiamina3/OOP-Profile-Generator#readme"
+}
