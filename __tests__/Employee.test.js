@@ -10,18 +10,18 @@ test('creates employee object', () => {
   expect(employee.email).toEqual(expect.any(String));
 });
 
-test("gets employee name", () =>
+test("get employee name", () =>
 {
   const employee = new Employee('Amina', 25, 'kurdiamina3@gmail.com');
 
-  expect(employee.getName()).toEqual(expect.any(Array));
+  expect(employee.getName()).toEqual(expect.any(String));
 });
 
 test("get employee id", () =>
 {
   const employee = new Employee('Amina', 25, 'kurdiamina3@gmail.com');
 
-  expect(employee.getID()).toEqual(expect.any(Number));
+  expect(employee.getId()).toEqual(expect.any(Number));
 });
 
 test("get employee email", () =>
@@ -35,7 +35,7 @@ test("get employee role", () =>
 {
   const employee = new Employee('Amina', 25, 'kurdiamina3@gmail.com');
 
-  expect(emplotee.getRole()).toEqual('Employee')
+  expect(employee.getRole()).toEqual('Employee')
 })
 
 
