@@ -19,7 +19,7 @@
 ### Description
 This project is an application that generates a team profile with user input using Inquirer from Node.js. It uses the information and displays and html that displays the Manager, Engineer and Intern. This project demonstrates the uses of OOP and TDD.
 
-![Screenshot](.\media\Capture.GIF)
+![Screenshot](https://github.com/Kurdiamina3/OOP-Profile-Generator/media/Screenshot.png?raw=true)
 ----
 ### Installation
 🔧User should have Node.js downloaded. npm install, npm i inquirer
